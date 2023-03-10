@@ -10,7 +10,7 @@ public class TulController {
 
     @GetMapping("/tul")
     public String getTul() {
-        return "Test1";
+        return "Change for commit 2";
     }
 
 }
