@@ -13,4 +13,8 @@ public class TulController {
         return "Change for commit 2";
     }
 
+    @GetMapping("/tul2")
+    public int gettul2(){
+        return  200;
+    }
 }
